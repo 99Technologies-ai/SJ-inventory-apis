@@ -82,7 +82,7 @@ app.use('/files', express.static('uploads'));
 const PORT = process.env.MODE == "production" ? 3002 : 3006;
 const BASE_URL = process.env.MODE == "production" ? 'https://api.sj.99technologies.com' : `http://localhost:3006`;
 const TRADING_API = 'https://api.ebay.com/ws/api.dll';
-const WEBHOOK_URL= 'https://surround-enlighten-dagger.ngrok-free.dev';
+const WEBHOOK_URL= process.env.MODE == "production" ? BASE_URL : "https://surround-enlighten-dagger.ngrok-free.dev";
 
 
 // --- AUTH MIDDLEWARE ---

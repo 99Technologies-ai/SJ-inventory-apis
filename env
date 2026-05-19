@@ -1,0 +1,6 @@
+DB_USER=postgres
+DB_PASS=admin123
+DB_NAME=sj_inventory
+DB_HOST=127.0.0.1
+MODE=production
+JWT_SECRET=MySecretKey

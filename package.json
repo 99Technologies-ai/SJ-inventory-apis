@@ -12,7 +12,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "@xenova/transformers": "^2.17.2",
+    "@xenova/transformers": "^2.0.1",
     "@xixiyahaha/rembg-node": "^2.2.0",
     "cors": "^2.8.5",
     "csv-parser": "^3.2.0",
@@ -25,7 +25,7 @@
     "multer": "^1.4.5-lts.1",
     "node-fetch": "^2.7.0",
     "pg": "^8.17.1",
-    "pm2": "^7.0.1",
+    "pm2": "^6.0.14",
     "pm2-windows-startup": "^1.0.3",
     "sharp": "^0.34.5",
     "xml2js": "^0.6.2"
